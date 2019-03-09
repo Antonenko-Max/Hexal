@@ -45,43 +45,38 @@ il.menu-item {
     margin: 3px 0;
 }
 
+.portfolio-buffer {
+    margin: 132px auto;
+}
+
 .row {
-    margin: 90px auto;
+    margin: -41px auto;
     text-align: center;
 }
 
-.hex {
-	width: 180px;
-	height: 204px;
-	background: red;
-    position: relative;
-    display: inline-block;
+.hex-outer {
     margin: 0 8px;
+	width: 180px;
+    height: 206px;
+    transform: rotate(60deg);
     overflow: hidden;
+    display: inline-block;
 }
 
-.hex:before {
-	content: "";
-	position: absolute;
-	top: 0; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 90px solid #fff;
-	border-right: 90px solid #fff;
-	border-bottom: 52px solid transparent;
+.hex-middle {
+	width: 180px;
+    height: 206px;
+    transform: rotate(60deg);
+    overflow: hidden;
+    display: inline-block;
 }
 
-.hex:after {
-	content: "";
-	position: absolute;
-	bottom: 0; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 90px solid #fff;
-	border-right: 90px solid #fff;
-    border-top: 52px solid transparent;
+.hex-inner {
+	width: 180px;
+    height: 206px;
+    transform: rotate(-120deg);
+    overflow: hidden;
+    display: inline-block;
 }
 
 img.sample {
