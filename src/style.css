@@ -45,8 +45,12 @@ il.menu-item {
     margin: 3px 0;
 }
 
-.portfolio-buffer {
+.portfolio-buffer-upper {
     margin: 132px auto;
+}
+
+.portfolio-buffer-lower {
+    margin: 126px auto;
 }
 
 .row {
@@ -81,4 +85,64 @@ il.menu-item {
 
 img.sample {
     margin: -12px -22px;
+}
+
+.about {
+    background: rgb(49,179,152);
+    position: relative;
+}
+
+.autor {
+    position: absolute;
+    top: 68px;
+    left: 50%;
+    margin-left: -398px;
+}
+
+.photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-left: -194px;
+    padding-top: 60px;
+    font-size: 33px;
+    position: relative;
+    left: 50%;
+    color: rgb(215, 252, 245);
+}
+
+h2 {
+    margin-left: -192px;
+    padding-top: 2px;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    color: rgb(32, 129, 109);
+}
+
+.autor-descr {
+    line-height: 1.6;
+    margin-left: -191px;
+    padding-top: 14px;
+    font-size: 14px;
+    position: relative;
+    left: 50%;
+    color: rgb(215, 252, 245);
+    width: 580px;
+}
+
+.social {
+    margin-left: 245px;
+    padding-top: 33px;
+    position: relative;
+    left: 50%;
+    padding-bottom: 64px;
+}
+
+.social > img {
+    margin: 0 -2px;
 }
